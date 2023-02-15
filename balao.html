@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALAO LEGAL QUE MEXE</title>
+</head>
+<style>
+        .meu_balao
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            animation: anima_balao 10s;
+        }
+        
+
+@keyframes anima_balao
+        {
+            0%   { left: 0px; }
+            50%  { left: 100px;  top: 80px; }
+            100% { left: 150px;  top: 0px;  }
+        }
+
+</style>
+<body>
+    <img src="balao.gif" class="meu_balao">
+</body>
+</html>
