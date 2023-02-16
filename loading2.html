@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+</head>
+    <style>
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transform: scale(5);
+  overflow: hidden;
+}
+.container{
+    background-color: black;
+    min-height: 100vh;
+  min-width: 100vw;
+}
+.c-loader {
+  animation: is-rotating 1s infinite;
+  border: 6px solid #030303;
+  border-radius: 50%;
+  border-top-color: #51d4db;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+    </style>
+<body>
+    <div class="container">
+        <div class="loader"></div>   
+    </div>
+</body>
+</html>
